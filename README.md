@@ -9,15 +9,14 @@ untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah disp
 ## Desain Program 
 1. **Class `Product`:**
    - Atribut: `idProduct`, `name`, `brand`, `price`.
-   - Ini adalah kelas dasar yang merepresentasikan produk dengan atribut dasar.
+   - class ini merupakan objek parent yang meliputi keseluruhan objek class lain, karena setiap produk dapat dianggap sebagai produk (baik itu pakaian atau kemeja).
 
 2. **Class `Clothing` (Turunan dari `Product`):**
    - Atribut: `size`, `material`, `gender`.
-   - Mewarisi atribut dari kelas `Product` dan menambahkan atribut yang khusus untuk pakaian.
-
+   - class ini menjadi child dari Product karena atributnya melekat kaitannya dengan atribut Product. Sebagai contoh, atribut size dan material merupakan bagian dari informasi yang terkait dengan produk pakaian.
 3. **Class `Shirt` (Turunan dari `Clothing`):**
    - Atribut: `color`, `sleeve_type`.
-   - Mewarisi atribut dari kelas `Clothing` dan menambahkan atribut yang khusus untuk kemeja.
+   - class ini menjadi child dari Clothing karena atributnya khusus untuk jenis pakaian tertentu, yaitu kemeja.
 
 program ini, hubungan antara kelas-kelas ini mencerminkan konsep Multi-level Inheritance. Artinya, Shirt mewarisi atribut dan metode dari kelas Clothing, yang pada gilirannya mewarisi dari kelas Product.
 
