@@ -11,15 +11,15 @@ untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah disp
    - Atribut: `idProduct`, `name`, `brand`, `price`.
    - Ini adalah kelas dasar yang merepresentasikan produk dengan atribut dasar.
 
-2. **Kelas `Clothing` (Turunan dari `Product`):**
+2. **Class `Clothing` (Turunan dari `Product`):**
    - Atribut: `size`, `material`, `gender`.
    - Mewarisi atribut dari kelas `Product` dan menambahkan atribut yang khusus untuk pakaian.
 
-3. **Kelas `Shirt` (Turunan dari `Clothing`):**
+3. **Class `Shirt` (Turunan dari `Clothing`):**
    - Atribut: `color`, `sleeve_type`.
    - Mewarisi atribut dari kelas `Clothing` dan menambahkan atribut yang khusus untuk kemeja.
 
- program ini, hubungan antara kelas-kelas ini mencerminkan konsep Multi-level Inheritance. Artinya, Shirt mewarisi atribut dan metode dari kelas Clothing, yang pada gilirannya mewarisi dari kelas Product.
+program ini, hubungan antara kelas-kelas ini mencerminkan konsep Multi-level Inheritance. Artinya, Shirt mewarisi atribut dan metode dari kelas Clothing, yang pada gilirannya mewarisi dari kelas Product.
 
 Dengan desain ini, Anda dapat membuat objek kemeja dengan semua atribut yang diperlukan, dan masing-masing kelas memiliki keunggulan hierarki yang mencerminkan hubungan semantik di antara konsep produk, pakaian, dan kemeja.
 
